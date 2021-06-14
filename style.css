@@ -1,0 +1,317 @@
+.dropdwn{
+	margin:0 auto;
+	width:100%;
+	height:relative;
+}
+nav{
+	
+	height:60px;
+	background:#55efc4;
+	box-shadow: 0 10px 15px rgba(0,0,0,0,1);
+	padding:10px;
+	
+}
+.logo{
+	padding: 0px 0 0 40px;
+	width:200PX;
+	height:auto;
+}
+nav ul{
+	padding: 0;
+	margin:0;
+	float:right;
+	margin-right:5px;
+}
+nav ul li{
+	background:#8e44ad;
+	position:relative;
+	list-style:none;
+	display: inline-block;
+	
+}
+nav ul li a{
+	display:block;
+	padding:0 5px;
+	color:white;
+	text-decoration:none;
+	line-height:60px;
+	font-size:20px;
+}
+nav ul li a:hover{
+	background-color: red;
+	
+}
+nav ul ul{
+	position:absolute;
+	top: 60px;
+	display:none;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul ul li{
+	width:150px;
+	float:none;
+	display:list-name;
+	position:relative;
+}
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	left:150px;
+}
+
+`
+.wrapper {
+	display:row;
+	justify-content:center;
+	align-items: center;
+	width: relative;
+	height: relative;
+	background-color:#81ecec;
+	
+}
+
+
+
+.quiz {
+	border-radius:3px;
+	display:grid;
+	grid-template-rows: 60px auto;
+	width:90%;
+	height:relative;
+	background-color:#00cec9;
+	box-shadow:0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+	margin-left:5%;
+	font-size:20px;
+}
+.quiz_header {
+	display:flex;
+	justify-content:space-between;
+	background-color:#ffeaa7;
+	border-top-left-radius:px;
+	border-top-right-radius:px;
+	box-shadow:0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+	z-index:2;
+	color:red;
+	
+}
+
+.quiz_body {
+	background-color:#dfe6e9;
+	padding:20px;
+	height:relative
+}
+
+.quiz_user {
+	display:flex;
+	align-items:center;
+	padding-left:10px;
+}
+
+.quiz_timer {
+	display:flex;
+	align-items:center;
+	padding-right:10px;
+	padding-left:10px;
+	background-color: #55efc4;
+}
+.option_group {
+	list-style:none;
+	margin:25px  ;
+	margin-left:-20px;
+}
+.option {
+	background-color:#74b9ff;
+	width:70%;
+	padding:5px 5px;
+	margin-bottom:25px;
+	border-radius:10px;
+	border:2px solid transparent;
+	box-shadow:0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+	font-size:20px;
+}
+
+.option:hover {
+	cursor: pointer;
+	border: 2px solid #341f97;
+}
+.btn-next {
+	background-color:#0984e3;
+	color:#fff;
+	padding:15px 35px;
+	border:none;
+	border-radius:20px;
+	transition:0.4s all;
+	font-size:13px;
+	box-shadow:0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.btn-next:hover {
+	cursor:pointer;
+	background-color:blue;
+	color:#fff;
+	box-shadow:0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+	font-size:17px;
+}
+
+.active {
+	 background-color:#341f97;;
+	 color:#fff !important;
+ }
+ 
+ 
+.footer{
+	width:99.9%;
+	height:5rem;
+	background-color:#0a183d;
+	margin-top:auto;
+}
+.footer p {
+	color:#fff;
+	font-size:0.8rem;
+	text-align:center;
+	line-height:5rem;
+	
+	
+}
+p {
+	margin:0;
+}
+
+
+
+
+
+.shimmer {
+  font-family: "Lato";
+  font-weight: 100;
+  font-size: 1REM;
+  margin: 0 auto;
+  padding: 20px;
+  display: inline;
+  margin-bottom: 0;
+}
+.shimmer {
+  text-align: center;
+  color: black;
+  background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+  font-size:25px;
+}
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-o-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+
+.dropdwn{
+	margin:0 auto;
+	width:100%;
+	height:relative;
+}
+nav{
+	
+	height:60px;
+	background:#55efc4;
+	box-shadow: 0 10px 15px rgba(0,0,0,0,1);
+	padding:10px;
+	
+}
+.logo{
+	padding: 0px 0 0 40px;
+	width:200PX;
+	height:auto;
+}
+nav ul{
+	padding: 0;
+	margin:0;
+	float:right;
+	margin-right:5px;
+}
+nav ul li{
+	background:#8e44ad;
+	position:relative;
+	list-style:none;
+	display: inline-block;
+	
+}
+nav ul li a{
+	display:block;
+	padding:0 5px;
+	color:white;
+	text-decoration:none;
+	line-height:60px;
+	font-size:20px;
+}
+nav ul li a:hover{
+	background-color: red;
+	
+}
+nav ul ul{
+	position:absolute;
+	top: 60px;
+	display:none;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul ul li{
+	width:150px;
+	float:none;
+	display:list-name;
+	position:relative;
+}
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	left:150px;
+}
+
+
+

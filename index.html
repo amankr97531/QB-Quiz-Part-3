@@ -1,0 +1,196 @@
+
+<html>
+<head>
+   
+	<title>Welcome Question Bank Quiz</title>
+	
+	<style>
+	
+body {
+	FONT-WEIGHT:300;
+	DISPLAY:FLEX;
+	FLEX-DIRECTION:COLUMN;
+	HEIGHT: 100vh;
+}
+
+
+.dropdwn{
+	margin:0 auto;
+	width:100%;
+	height:relative;
+}
+nav{
+	
+	height:60px;
+	background:#55efc4;
+	box-shadow: 0 10px 15px rgba(0,0,0,0,1);
+	padding:10px;
+	
+}
+.logo{
+	padding: 0px 0 0 40px;
+	width:200PX;
+	height:auto;
+}
+nav ul{
+	padding: 0;
+	margin:0;
+	float:right;
+	margin-right:5px;
+}
+nav ul li{
+	background:#8e44ad;
+	position:relative;
+	list-style:none;
+	display: inline-block;
+	
+}
+nav ul li a{
+	display:block;
+	padding:0 5px;
+	color:white;
+	text-decoration:none;
+	line-height:60px;
+	font-size:20px;
+}
+nav ul li a:hover{
+	background-color: red;
+	
+}
+nav ul ul{
+	position:absolute;
+	top: 60px;
+	display:none;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul ul li{
+	width:150px;
+	float:none;
+	display:list-name;
+	position:relative;
+}
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	left:150px;
+}
+
+.wrapper2 {
+	
+	
+	width:relative;
+	height: 100%;
+	background-color:;
+	
+		}
+.welcome_text {
+	background-color:;
+	width:70%;
+	margin-left:15%;
+	margin-top:20%;
+}
+.welcome_form input, 
+.welcome_form button {
+	display:block;
+	width:100%;
+}
+.welcome_form input {
+	margin-bottom:25px;
+	background-color:#b2bec3;
+	border:none;
+	border-bottom: 2px solid #fff;
+	color:white;
+	font-size:25px;
+	text-align:center;
+}
+.welcome_form button {
+	font-size:40px;
+	paading:20 10px;
+	background-color:#00b894;
+	color: #341f97;
+	
+	border-radius:50px;
+	transition:0.3s all;
+}
+.welcome_form button:hover {
+	transform: translatey(-5px);
+	cursor:pointer;
+}
+.welcome_form input:focus, 
+.welcome_form button:focus {
+	outline: none;
+}		
+
+
+.footer{
+	width:98.3%;
+	height:relative;
+	background-color:#636e72;
+	margin-top:auto;
+	position: absolute;
+	bottom: 0px;
+	
+	font-color:#ffeaa7;
+	font-size:2rem;
+	text-align:center;
+	line-height:2rem;
+}
+
+	</style>
+	 
+</head>
+<body bgcolor="">
+
+ <div class="dropdwn">
+	    <nav>
+	        <img class="logo" src="https://i.vimeocdn.com/video/730799552.jpg?mw=1920&mh=1080&q=70">
+		    <ul>
+		        <li><a href="#">HOME</a></li>
+			    <li><a href="#">HTML QUIZ <i class="fas fa-caret-down"></i> </a>
+			        <ul>	    
+			             <li><a href="#">PART 1</a></LI>
+			             <li><a href="#">PART 2</a></li>
+						  <li><a href="#">PART 3</a></li>
+			         </ul>
+	            </li>			
+				<li><a href="#">O.S QUIZ <i class="far fa-caret-square-down"></i></i></a>
+					<ul>
+				        <li><a href="#">PART 1</a></li>
+					    <li><a href="#">PART 3</a></li>
+						<li><a href="#">PART 3<i class="fas fa-caret-down"></i></a></li>			 
+					</ul> 
+				</li>
+			
+				<li><a href="#">FEEDBACK</a></li>
+            </ul>
+        </nav>
+    </div>	
+    <div class="wrapper2"><CENTER></br></BR></BR><H2>
+	BRABU MCQ (BCA-3) PREVIOUS YEAR QUESTION QUIZ PART-3</BR>
+	BY AMAN KUMAR</CENTER></br>
+	<font color="red">
+	<MARQUEE>There are 20 questions in this quiz. Each question carries 1 mark.</marquee></font>
+	</br></br>
+	    <div class="welcome_text"><font color="red" size="5">Enter Your Name</font>
+		    <form class="welcome_form" name="welcome_form" onsubmit="submitForm(event)">
+			    <input type="text" name="name">
+				<button type="submit">Start Quiz</button></H2>
+				
+		    </form>
+		
+		</div></br></br>
+		<div class="footer">
+		     <font color="WHITE" size="5">DESIGNED & DEVELOPED BY AMAN KUMAR</BR> RN COLLEGE BCA-3 ROLL NO-70</FONT>
+       </div>    
+	
+	</div>
+	
+	
+	
+	
+	<script src="quiz.js"></script>
+
+</body>
+</html>
