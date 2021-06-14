@@ -6,215 +6,215 @@ let questions = [
 		 {
 			 
 	 id:1,
-		 question:"Q1:Which statement is true",
-		 answer: "Exe can run independently",
+		 question:"Q1:The default property of picture box is",
+		 answer: "Picture",
 		 options:[
-		   "Exe can run independently",
-		   "Exe cannot run independently",
-		   "All can run independently",
-		   "None of these"]
+		   "Caption",
+		   "Picture",
+		   "Text",
+		   "Align"]
 	     },
 {
 	 id:2,
-		question:"Q2:A tool that is used for running Applet is ",
-		 answer: "Applet viewer",
+		question:"Q2:The extension of visual basic is ",
+		 answer: ".vbp",
 		 options:[
-		   "Javap",
-		   "Javac",
-		   "Applet viewer",
-		   "Applet run"]
+		   ".vbp",
+		   ".vb",
+		   ".vp",
+		   ".vpb"]
 	     },
 		 {
 	id:3,		 
-		 question:"Q3: Which is the keyword used fir deriving classes in java",
-		 answer: "Extends",
+		 question:"Q3: Which one of the followings is the keyword",
+		 answer: "Float",
 		 options:[
-		   "Implements",
-		   "Extends",
-		   "Throws",
-		   "Inherits"]
+		   "Area",
+		   "Integer",
+		   "Float",
+		   "All of them"]
 	     },
 		 {
 	id:4,		 
-		question:"Q4: What are the two types of exceptions available in java",
-		 answer: "Checked and compile",
+		question:"Q4: Which method is used to place cursor in a specified textbox",
+		 answer: "None",
 		 options:[
-		   "Checked and compile",
-		   "Unchecked and compile",
-		   "Checked and Unchecked",
-		   "Compile and non-compile"]
+		   "Lostfocus",
+		   "Click",
+		   "Gotfocus",
+		   "None"]
 	     },
 		 { 
 	id:5,		 
-		question:"Q5: Which one of the following statements is FALSE",
-		 answer: "Multi threads can manipulate files and get user input at the same time",
-		 options:[
-		   "Java supports multi-threads programming",
-		   "Threads in a single program can have different priorities",
-		   "Multi threads can manipulate files and get user input at the same time",
-		   "two threads can never act in the same object at the same time"]
-	     },	
-		 {		 
-	id:6,		 
-		question:"Q6:A subclass can use the keyword in its constructor in order to invoke the constructor of its immediate super class",
-		 answer: "Super",
-		 options:[
-		   "final",
-		   "Super",
-		   "Extends",
-		   "None of these"]
-	     },	 
-		 
-	{
-	id:7,		 
-		question:"Q7: Visual basic is a tool that allows to develop windows.............. application ",
-		 answer: "GUI(Graphical user interface)",
-		 options:[
-		   "GUI(Graphical user interface)",
-		   "GUI(Graphical user interrupts)",
-		   "GUI(Graphical user information)",
-		   "GIU(Graphical interface user)"]
-	     },	 
-		 
-		 {
-	id:8,		 
-		question:"Q8: Visual basic program built around............",
-		 answer: "Controls",
-		 options:[
-		   "Methods",
-		   "Controls",
-		   "Properties",
-		   "Events"]
-	     },	 
-		 
-		  {
-	id:9,		 
-		question:"Q9:All the control in tool box expected......... are objects in VB ",
-		 answer: "Pointers",
-		 options:[
-		   "Image control",
-		   "Data",
-		   "Picture box",
-		   "Pointers"]
-	     },	 
-		 {
-	id:10,		 
-		question:"Q10:The ............ consists of the title bar,menu bar and tool bar",
-		 answer: "Main window",
-		 options:[
-		   "Tool box",
-		   "Properties window",
-		   "Main window",
-		   "Project explorer window"]
-	     },	 
-		 {
-	id:11,		 
-		question:"Q11:Which is not a common control event",
-		 answer: "Single click",
-		 options:[
-		   "Single click",
-		   "Click",
-		   "Double click",
-		   "Mouse move"]
-	     },	 	 
-		 {
-	id:12,		 
-		question:"Q12:A check box can also appear as",
-		 answer: "Button",
-		 options:[
-		   "Button",
-		   "Radio button",
-		   "Scroll bar",
-		   "Both a and b"]
-	     },	 	 
-		 
-		  {
-	id:13,		 
-		question:"Q13:To show system date and time we use.......",
+		question:"Q5:To show system date and time , we use.....",
 		 answer: "Now",
 		 options:[
 		   "Date",
 		   "Time",
 		   "Now",
+		   "All of them"]
+	     },	
+		 {		 
+	id:6,		 
+		question:"Q6:The multiline property of textbox is by default",
+		 answer: "False",
+		 options:[
+		   "True",
+		   "False",
+		   "Both",
 		   "None of these"]
+	     },	 
+		 
+	{
+	id:7,		 
+		question:"Q7:What will the result of the expression 13&25",
+		 answer: "9",
+		 options:[
+		   "38",
+		   "25",
+		   "9",
+		   "12"]
+	     },	 
+		 
+		 {
+	id:8,		 
+		question:"Q8:Which one of the followings is the wrapper class",
+		 answer: "Byte",
+		 options:[
+		   "Integer",
+		   "Byte",
+		   "Float",
+		   "Char"]
+	     },	 
+		 
+		  {
+	id:9,		 
+		question:"Q9:Which of the followings is the keyword",
+		 answer:"All of them",
+		 options:[
+		   "Private",
+		   "Public",
+		   "Protected",
+		   "All of them"]
+	     },	 
+		 {
+	id:10,		 
+		question:"Q10:Which control is not visible at runtime",
+		 answer: "Timer",
+		 options:[
+		   "Label",
+		   "Command button",
+		   "Picture box",
+		   "Timer"]
+	     },	 
+		 {
+	id:11,		 
+		question:"Q11:Which of the follwings is the keyword",
+		 answer: "None of these",
+		 options:[
+		   "Float",
+		   "Long",
+		   "Boolean",
+		   "NOne of these"]
+	     },	 	 
+		 {
+	id:12,		 
+		question:"Q12:Which event will occur when cursor leaves the textbox",
+		 answer: "Lost focus",
+		 options:[
+		   "Got focus",
+		   "Lost focus",
+		   "Click",
+		   "All of these"]
+	     },	 	 
+		 
+		  {
+	id:13,		 
+		question:"Q13:To show system date is use",
+		 answer: "Date",
+		 options:[
+		   "Date",
+		   "Time",
+		   "Now",
+		   "All of these"]
 	     },	 	 
 		 
 		 	  {
 	id:14,		 
-		question:"Q14:A table cam be deleted from the database by using .........",
-		 answer: "Drop",
+		question:"Q14:RMI stands for",
+		 answer: "Remote method invocation",
 		 options:[
-		   "Delete",
-		   "Drop",
-		   "Exit",
+		   "Record method invocation",
+		   "Remote method invocation",
+		   "Revoke method invocation",
 		   "None of these"]
 	     },	 	 
 		 
 		 
 		 	  {
 	id:15,		 
-		question:"Q15:Face is an attribute of ........ tag",
-		 answer: "Font",
+		question:"Q15:IPv4 address is of length ..... bits",
+		 answer: "32",
 		 options:[
-		   "Table",
-		   "Body",
-		   "Img",
-		   "Font"]
+		   "8",
+		   "16",
+		   "32",
+		   "64"]
 	     },	 	 
 		 
 		 	  {
 	id:16,		 
-		question:"Q16:UNIX is a .......... and ............ operating system",
-		 answer: "Multiprocessing and multitasking",
+		question:"Q16:......... is the example of wireless network",
+		 answer: "Guided transmission",
 		 options:[
-		   "Singleprocessing and single tasking",
-		   "Multiprocessing and multitasking",
-		   "Singleprocessing and multitasking",
-		   "Multiprocessing and singletasking"]
+		   "Guided transmission",
+		   "Unguided transmission",
+		   "Both A and B",
+		   "None of these"]
 	     },	 	 
 		 
 		  	  {
 	id:17,		 
-		question:"Q17:PID stands for ............",
-		 answer: "Process identification",
+		question:"Q17:CRC stands for",
+		 answer: "Cyclic redundancy check",
 		 options:[
-		   "Process interface data",
-		   "Process identification",
-		   "Process independently",
+		   "Cyclic redundancy check",
+		   "Cable redundancy check",
+		   "Communication redundancy check",
 		   "None of these"]
 	     },	 	 
 		 
 		   {
 	id:18,		 
-		question:"Q18:PERT stands for ............",
-		 answer: "Program evaluation and review",
+		question:"Q18:A satelite link introduce larger ",
+		 answer: "MAN",
 		 options:[
-		   "Program evaluation and report",
-		   "Process evaluation and review",
-		   "Program evaluation and review",
+		   "LOW",
+		   "MAN",
+		   "WAN",
 		   "None of these"]
 	     },	 
 
   {
 	id:19,		 
-		question:"Q19:PDU stands for ............",
-		 answer: "Protocol data unit",
+		question:"Q19:....... technique is used for transmit digital data",
+		 answer: "TDM",
 		 options:[
-		   "Protocol device unit",
-		   "Protocol data unit",
-		   "Process data unit",
-		   "Process device unit"]
+		   "FDM",
+		   "TDM",
+		   "WDM",
+		   "SDM"]
 	     },	 
 
 {
 	id:20,		 
-		question:"Q20:SRS stands for ............",
-		 answer: "System requirement specification",
+		question:"Q20:Cable network is the best example of",
+		 answer: "MAN",
 		 options:[
-		   "System requirement specification",
-		   "System requirement software",
-		   "system requirement security",
-		   "System record software"]
+		   "LAN",
+		   "MAN",
+		   "CAM",
+		   "WOW"]
 	     },	 		 
  ];
 
