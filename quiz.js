@@ -115,7 +115,7 @@ let questions = [
 		   "Float",
 		   "Long",
 		   "Boolean",
-		   "NOne of these"]
+		   "None of these"]
 	     },	 	 
 		 {
 	id:12,		 
